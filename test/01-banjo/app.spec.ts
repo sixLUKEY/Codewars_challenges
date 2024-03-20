@@ -1,5 +1,5 @@
 import { assert } from "chai";
-import { areYouPlayingBanjo } from "../app";
+import { areYouPlayingBanjo } from "../../Typescript/Are_you_playing_banjo/app";
 
 describe("Are you playing banjo?", () => {
   it("Fixed test", () => {

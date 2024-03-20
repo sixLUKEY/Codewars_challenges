@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const chai_1 = require("chai");
-const app_1 = require("../app");
+const app_1 = require("../../Typescript/Are_you_playing_banjo/app");
 describe("Are you playing banjo?", () => {
     it("Fixed test", () => {
         chai_1.assert.strictEqual((0, app_1.areYouPlayingBanjo)("Adam"), "Adam does not play banjo");
