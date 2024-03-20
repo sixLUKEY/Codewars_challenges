@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "chai": "^4.4.1",
+    "mocha": "^10.3.0",
+    "ts-mocha": "^10.0.0"
+  },
+  "name": "codewars_challenges",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@types/chai": "^4.3.13",
+    "assertion-error": "^2.0.1",
+    "check-error": "^2.0.0",
+    "deep-eql": "^5.0.1",
+    "get-func-name": "^2.0.2",
+    "loupe": "^3.1.0",
+    "pathval": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
