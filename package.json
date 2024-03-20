@@ -1,9 +1,8 @@
 {
   "devDependencies": {
     "@types/mocha": "^10.0.6",
-    "chai": "^4.4.1",
-    "mocha": "^10.3.0",
-    "ts-mocha": "^10.0.0"
+    "chai": "*",
+    "mocha": "*"
   },
   "name": "codewars_challenges",
   "description": "",
@@ -19,7 +18,7 @@
     "pathval": "^2.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC"
