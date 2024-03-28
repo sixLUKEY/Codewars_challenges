@@ -18,7 +18,7 @@
     "pathval": "^2.0.0"
   },
   "scripts": {
-    "test": "npx mocha test/**/**.js"
+    "test": "npx mocha test/**/**.spec.js"
   },
   "author": "",
   "license": "ISC"
