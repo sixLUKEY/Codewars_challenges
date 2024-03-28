@@ -15,7 +15,7 @@ interface String {
 
 // OR refactor to
 
-function jdCase(str: string) {
+function toJdCase(str: string) {
   return str
     .split(" ")
     .map((element) => {

@@ -9,7 +9,7 @@ String.prototype.toJadenCase = function () {
     return newArray.join(" ");
 };
 // OR refactor to
-function jdCase(str) {
+function toJdCase(str) {
     return str
         .split(" ")
         .map((element) => {
