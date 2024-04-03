@@ -13,3 +13,7 @@ const digitalRoot = (n) => {
     return n;
 };
 exports.digitalRoot = digitalRoot;
+// OR Refactor
+const alsoDigitalRoot = (n) => {
+    return ((n - 1) % 9) + 1;
+};
