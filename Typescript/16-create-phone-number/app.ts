@@ -1,4 +1,4 @@
-export function createPhoneNumber(numbers: number[]): string {
+export function createPhoneNumber<T extends number[]>(numbers: T): string {
   let firstThree: string = numbers.slice(0, 3).join("");
   let secondThree: string = numbers.slice(3, 6).join("");
   let lastFour: string = numbers.slice(-4).join("");
